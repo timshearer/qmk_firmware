@@ -1,3 +1,7 @@
+# Reinstating previous custom matrix
+SRC = matrix.c
+
+
 # MCU name
 MCU = STM32F303
 
@@ -12,7 +16,7 @@ EXTRAKEY_ENABLE = yes       # Audio control and System control
 CONSOLE_ENABLE = yes         # Console for debug
 COMMAND_ENABLE = yes       # Commands for debug and configuration
 NKRO_ENABLE = yes           # Nkey Rollover - if this doesn't work, see here: https://github.com/tmk/tmk_keyboard/wiki/FAQ#nkro-doesnt-work
-BACKLIGHT_ENABLE = no       # Enable keyboard backlight functionality
+BACKLIGHT_ENABLE = yes      # Enable keyboard backlight functionality
 MIDI_ENABLE = no            # MIDI controls
 AUDIO_ENABLE = yes           # Audio output
 UNICODE_ENABLE = no         # Unicode
@@ -24,6 +28,7 @@ API_SYSEX_ENABLE = no
 # Do not enable SLEEP_LED_ENABLE. it uses the same timer as BACKLIGHT_ENABLE
 SLEEP_LED_ENABLE = no    # Breathing sleep LED during USB suspend
 #SLEEP_LED_ENABLE = yes
+CUSTOM_MATRIX = yes
 
 # SERIAL_LINK_ENABLE = yes
 ENCODER_ENABLE = yes

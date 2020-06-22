@@ -27,11 +27,12 @@
 #define MATRIX_ROWS 10
 #define MATRIX_COLS 6
 
-#undef MATRIX_ROW_PINS
+/* #undef MATRIX_ROW_PINS
 #undef MATRIX_COL_PINS
 #define MATRIX_ROW_PINS { A10, A9, A8, B15, C13, C14, C15, A2, A3, A6 }
 #define MATRIX_COL_PINS { B11, B10, B2, B1, A7, B0 }
 #define UNUSED_PINS
+*/
 
 #define ENCODERS_PAD_A { B12 }
 #define ENCODERS_PAD_B { B13 }
@@ -126,5 +127,6 @@
 #define RGBLED_NUM 9
 #define RGBLIGHT_ANIMATIONS
 
+#define BACKLIGHT_BREATHING 0
 
 #endif

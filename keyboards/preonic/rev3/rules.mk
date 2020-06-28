@@ -1,7 +1,3 @@
-# Reinstating previous custom matrix
-SRC = matrix.c
-
-
 # MCU name
 MCU = STM32F303
 
@@ -28,7 +24,6 @@ API_SYSEX_ENABLE = no
 # Do not enable SLEEP_LED_ENABLE. it uses the same timer as BACKLIGHT_ENABLE
 SLEEP_LED_ENABLE = no    # Breathing sleep LED during USB suspend
 #SLEEP_LED_ENABLE = yes
-CUSTOM_MATRIX = yes
 
 # SERIAL_LINK_ENABLE = yes
 ENCODER_ENABLE = yes
